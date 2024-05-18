@@ -1,5 +1,7 @@
 // Get the modal
 var modal = document.getElementById("myModal");
+// document.body.style.overflow = 'hidden';
+
 
 console.log("Modal :",modal)
 // Get the button that opens the modal

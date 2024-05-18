@@ -11,16 +11,16 @@
 <body>
     <!-- header -->
     <div class="header">
-        <p>Aaqil</p>
-        <ol>
-            <li><a href="index.html#hero">Home</a></li>
-            <li><a href="index.html#hero">Products</a></li>
-            <li><a href="index.html#hero">Review</a></li>
-            <li><a href="index.html#hero">Contact</a></li>
-        </ol>
+        <p>Aaqil.</p>
+        <div>
+            <span><a href="index.html#hero">Home</a></span>
+            <span><a href="index.html#hero">Products</a></span>
+            <span><a href="index.html#hero">Review</a></span>
+            <span><a href="index.html#hero">Contact</a></li>
+        </div>
         <i class="fa fa-bars" style="font-size:24px"></i>
  
-        <p class="login">Login</p>
+        <p class="getstarted">Get started</p>
         
     </div>
     <div id="myModal" class="modal">
@@ -30,8 +30,121 @@
         </div>
     </div>
 
+    <!-- main content -->
+    <!-- section one -->
+    <div class="sec1">  
+        <div>
+            <h1>Welcome to our website</h1>
+            <p>Here you get the quality products...</p>
+        </div>
+    </div>
+
+    <!-- stats -->
+    <div class="statics">
+       <div class="statics-card">
+        <p>100+</p>
+        <h5>Gifts Sold</h5>
+       </div>
+       <div class="statics-card">
+
+       </div>
+       <div class="statics-card">
+
+       </div>
+    </div>
+
+    <!-- contact section -->
+    <div class="contact">
+        <div class="main_contact">
+            <h1>HAVE QUESTION ABOUT THE PRICE?</h1>
+            <p>Discover the perfect gifts at our shop</p>
+            <div class="contact_Card">
+                <div class="details">
+                    
+                    <div class="details-card" onclick="window.location.href='mailto:your-email@example.com';">
+                        <i class="fa fa-envelope fa-2x"></i>
+                        <div class="details-card-content">
+                            <p>Mail US</p>
+                            <p>aaqilgifts@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="details-card" onclick="window.location.href='tel:+1234567890';">
+                        <i class="fa fa-phone fa-2x"></i>
+                        <div class="details-card-content">
+                            <p>Call US</p>
+                            <p>+91 7092824762</p>
+                        </div>
+                    </div>
+                    
+                    <div class="details-card" onclick="window.location.href='https://www.instagram.com/aaqil_gifts/';">
+                        <i class="fa fa-instagram fa-2x"></i>
+                        <div class="details-card-content">
+                            <p>Instagram</p>
+                            <p>aaqil_gifts</p>
+                        </div>
+                    </div>
+                    
+                    <div class="details-card" onclick="window.location.href='https://wa.me/7092824762';">
+                        <i class="fa fa-whatsapp fa-2x"></i>
+                        <div class="details-card-content">
+                            <p>Whats App</p>
+                            <p>+91 7092824762</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="message">
+                    <div class="inputContainer">
+                        <label class="label" for="name">Name :</label>
+                        <input placeholder="Enter Your Name" class="input"/>
+                    </div>
+                    <div class="inputContainer">
+                        <label class="label" for="email">Email :</label>
+                        <input placeholder="Enter Your Email" class="input"/>
+                    </div>
+                    <div class="textareaContainer"> <!-- Add this div -->
+                        <label class="label" for="message">Message :</label>
+                        <textarea placeholder="Type your message here..." id="message" class="input"></textarea> <!-- Add textarea -->
+                    </div>
+                    <div class="submit-button" onclick="console.log('value is printing')">
+                        <p>SUBMIT</p>
+                    </div>
+    
+                </div>
+                
+            </div>  
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <div class="footer">
+        <p>AAQIL.COM</p>
+        <div class="page">
+            <a href="index.html#hero">Home</a>
+            <a href="index.html#hero">Products</a>
+            <a href="index.html#hero">Review</a>
+            <a href="index.html#hero">Contact</a>
+        </div>
+
+        <div class="links">
+            <span onclick="window.location.href='mailto:your-email@example.com';">
+                <i class="fa fa-envelope"></i>
+            </span>
+            <span onclick="window.location.href='https://www.instagram.com/aaqil_gifts/';">
+                <i class="fa fa-instagram "></i>
+            </span>
+            <span onclick="window.location.href='https://wa.me/7092824762';">
+                <i class="fa fa-whatsapp "></i>
+            </span>
+        </div>
+        <p>Copyright ©2024 All rights reserved | This template is made with  by Aaqil.com</p>
+
+    </div>
+
     <!-- script -->
-    <script src="./index.js"></script>
+    <script src="./index.js" data-aos="fade-in"></script>
     
 </body>
 </html>
